@@ -29,7 +29,7 @@ const CFIP = process.env.CFIP || 'www.ntu.edu.sg';            // 节点优选域
 const CFPORT = process.env.CFPORT || 443;                   // 节点优选域名或优选ip对应的端口
 const NAME = process.env.NAME || 'Railway';                        // 节点名称
 const CHAT_ID = process.env.CHAT_ID || '8093926960';       // Telegram chat_id  两个变量不全不推送节点到TG 
-const BOT_TOKEN = process.env.BOT_TOKEN || '8396677288:AAGCpsBEDOjKkQuuNZgk7U3xanOsKS2M6U8';              // Telegram bot_token 两个变量不全不推送节点到TG 
+const BOT_TOKEN = process.env.BOT_TOKEN || '8396677288:AAGCpsBEDOjKkQuuNZgk7U3xanOsKS2M6U9';              // Telegram bot_token 两个变量不全不推送节点到TG 
 const SHOW_LOG = !['false', 'disable', 'no'].includes((process.env.SHOW_LOG || 'no').toLowerCase()); // 是否显示日志输出，true/yes显示，false/disable/no屏蔽，默认显示
 
 // 控制日志输出
